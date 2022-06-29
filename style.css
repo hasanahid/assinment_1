@@ -14,7 +14,9 @@ body{
     margin: 0 auto;
     background: rgb(49, 49, 167);
 }
-
+/**************************
+This is Navigation section
+**************************/
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -41,7 +43,9 @@ body{
     background: rgb(180, 145, 145);
 
 }
-
+/**********************
+This is Banner section
+**********************/
 .full_body{
     background: #167ED5;
 }
@@ -55,7 +59,7 @@ body{
 .body h1{
     text-align: center;
     border-bottom: 2px dashed black;
-    width: 200px;
+    width: 250px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Kdam Thmor Pro', sans-serif;
@@ -72,15 +76,15 @@ body{
 
 .images{
     padding: 10px;
-
 }
 
 .images img{
     width: 500px;
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
-
+/***********************
+This is Content section
+***********************/
 .content{
     width: 450px;
     margin-left: 50px;
@@ -114,7 +118,9 @@ body{
     font-weight: bold;
     font-family: 'Lobster', cursive;
 }
-
+/**********************
+This is Course section
+**********************/
 .full_bodytwo{
     background: #fff;
     border-top: 1px solid gray;
@@ -135,7 +141,7 @@ body{
 }
 
 .card{
-    width: 320px;
+    width: 310px;
     padding: 10px;
     text-align: center;
     border: 1px solid gray;
@@ -144,14 +150,14 @@ body{
 }
 
 .card img{
-    width: 310px;
-    height: 270px;
+    width: 300px;
+    height: 250px;
     border-radius: 10px;
     box-shadow: 3px 3px 7px 5px rgba(0,0,0,0.12);
 }
 .card h2{
     text-align: center;
-    margin: 10px 0px;
+    margin: 6px 0px;
 
 }
 .card p{
@@ -166,8 +172,68 @@ body{
     margin: 5px 0px;
     border-radius: 10px;
 }
+/**********************
+This is Review section
+**********************/
+.review_section{
+    margin-top: 50px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-gap: 20px;
+}
+.student_img{
+    width: 300px;
+    /* display: flex; */
+    text-align: center;
+}
+
+.student_img img{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.review_text{
+    width: 280px;
+    border-left: 2px solid gray;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    border-radius: 0px 0px 10px 10px;
+}
+.review_text h3{
+    margin: 5px 10px;
+}
+.review_text p{
+    margin: 10px;
+    text-align: justify;
+}
+/**********************
+This is techer section
+**********************/
+
+.techer_section{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    grid-gap: 10px;
+    /* align-items: center; */
+    margin-top: 50px;
+}
+.techer_img{
+    display: flex;
+    align-items: center;
+}
 
 
+.techer_img img{
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    margin-right: 20px;
+} 
+/*********************
+This is About section
+*********************/
 .about_section{
     margin-top: 20px;
     display: flex;
@@ -180,7 +246,9 @@ body{
 .contenttwo p{
     color: black;
 }
-
+/***********************
+This is Contect section
+***********************/
 .contect_section{
     display: flex;
     justify-content: space-between;
@@ -212,6 +280,9 @@ body{
     margin-top: 10px;
     border-radius: 5px;
 }
+/**********************
+This is Footer section
+**********************/
 .main_footer{
     background: orange;
 }
